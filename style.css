@@ -1,39 +1,52 @@
-body{
-  text-align: center;
-  background-color: gray;
-}
-img {
-  width: 500px;
-  border-color:black;
-  border-style: ridge;
-  border-width: 5px;
-}
-h1 {
-  font-size: 50px;
-}
-h2 {
-  font-size: 40px;
-}
-h5 {
-  font-size: 15px;
-} 
-
-.winter {
-  color: rgb(195,230,255);
-  font-family: monospace; 
-} 
-
-.spring {
-  color: rgb(236,222,106);
-  font-family: cursive;  
+body {
+  background-color:brown;
 }
 
-.summer {
-  color: rgb(234,128,158);
-  font-family: sans-serif;
-}
-
-.fall {
-  color: rgb(61,172,83);
+p {
+  color: white;
+  font-size: 20px;  
   font-family: inherit;
 }
+
+h1 {
+  font-weight: bold;
+  text-decoration: underline;
+  color: rgb(255,239,185);
+  font-size: 30px; 
+  font-family: monospace
+}
+
+h3 {
+  font-size:28px;
+  text-decoration: overline;
+  color: slategray;
+  font-family: monospace
+}
+
+ul {
+  color: rgb(20,45,90);
+  font-size: 20px;
+  background-color: gray;
+}
+
+.mypicture {
+  float: right;
+  width: 150px;
+  height: 100px;
+  border-color: black;
+  border-style: ridge;
+  border-radius:20px;
+  border-width: thick;
+}
+
+.citation {
+  font-size: 12px;
+  color: black;
+  text-decoration: overline;
+  text-decoration: underline;
+}
+
+.header {
+  font-size: 35px;
+}
+  
